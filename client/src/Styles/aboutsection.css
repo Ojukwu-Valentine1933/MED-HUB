@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+/* About us styling starts here */
+
+
+.about-section {
+  /* margin-top: 100px; */
+  background-color: #3d2ca1;
+  padding: 1px 0 0 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.about-text {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 70px;
+  margin-bottom: 45px;
+   font-family: "Quicksand", system-ui;
+}
+
+.about-card {
+  padding: 20px;
+  border-radius: 20px !important;
+  width: 80% !important;
+  height: 100% !important;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.card-no {
+  color: #0d0059 !important;
+  font-weight: 700 !important;
+  font-size: 30px !important;
+  font-family: "Quicksand", system-ui;
+}
+
+.about-card-title {
+  color: #0d0059 !important ;
+  font-weight: 700 !important;
+  font-size: 18px;
+  font-family: "Quicksand", system-ui;
+}
+.about-card-text {
+  color: #101010 !important;
+  font-weight: 600 !important;
+  margin-top: 10px;
+  font-family: "Quicksand", system-ui;
+}
+/* About us styling ends */
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+  .about-card-main {
+    margin-top: 100px;
+  }
+}

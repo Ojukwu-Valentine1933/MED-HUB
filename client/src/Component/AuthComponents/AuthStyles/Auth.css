@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+.signImage img {
+  width: 100%;
+}
+.form-intro {
+  font-family: "Quicksand", system-ui !important;
+  color: #0d0059 !important;
+}
+.form-text {
+  color: #000000;
+  margin-top: 20px !important;
+  font-family: "Quicksand", system-ui !important;
+  font-weight: 600;
+}
+.card-container h1 {
+  color: var(--main-color);
+}
+.card-container p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.card-container {
+  margin-top: 8rem;
+}
+.close-holder {
+  display: flex;
+  position: relative;
+  left: 70%;
+}
+.btn-close {
+  background-color: white;
+  border: none;
+  font-size: 20px;
+}
+.sign-intro h1 {
+  font-family: "Quicksand", system-ui !important;
+  color: #0d0059 !important;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.sign-intro p {
+  font-family: "Quicksand", system-ui !important;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.forget-group a {
+  color: #0d0059;
+}
+
+.forget-group a:hover {
+  color: var(--secondary-color);
+  text-transform: capitalize;
+  border-bottom: 1px solid var(--secondary-color);
+}
+.form-group input {
+  width: 100%;
+}
+.form-group2 input {
+  margin-bottom: 20px;
+  border: 0.7px solid #08426b4d;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.form-control input {
+  width: 100%;
+  height: 50%;
+}
+/* .form-group2 button {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  right: 15%;
+  color:#0d0059;
+} */
+.sign-up p {
+  margin-top: 20px;
+  font-family: "Quicksand", system-ui !important;
+  font-weight: 500;
+}
+.sign-up a {
+  font-family: "Quicksand", system-ui !important;
+  color: #0d0059;
+  font-weight: 700;
+  margin-left: 20px !important;
+}
+
+.login-form button {
+  width: 40%;
+  margin-top: 20px !important;
+  margin: auto;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0d0059;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.login-form button:hover {
+  background-color: var(--secondary-color);
+}
+.login-form button:active {
+  background-color: var(--main-color);
+}
+.btnForSignUp {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  top: 20px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0d0059;
+
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.btnForSignUp:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Recover password styling starts here */
+.recover-section{
+    margin-top: 150px;
+}
+.recover-intro {
+    color: #0d0059 !important;
+    font-weight: 700;
+    font-family: "Quicksand", system-ui !important;
+    text-align: center;
+}
+.recover-text{
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Quicksand", system-ui !important;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.recover-link {
+    margin-top: 40px;
+    text-align: center;
+}
+.recover-link a{
+   
+    font-family: "Quicksand", system-ui ;
+    background-color: #0d0059;
+    color: #ffffff ;
+    padding: 10px 145px ;
+    border-radius: 10px;
+}
+.recover-image {
+    display: flex;
+    justify-content:end;
+   
+}
+.recover-image img {
+    width: 50%;
+    height: 50%;
+}
+
+/* recover success styling starts here */
+.success-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.success-text{
+    text-align: center;
+    color: #0d0059;
+    font-weight: 700;
+    font-family: "Quicksand", system-ui !important;
+}
+.reset-link{
+    margin-top: 40px;
+    text-align: center;
+}
+.reset-link p{
+    font-family: "Quicksand", system-ui ;
+    color: #000000 ;
+    font-weight: 500;
+}
+.reset-link a{
+    font-family: "Quicksand", system-ui ;
+    color: #0d0059 ;
+    font-weight: 700;
+}
+.reset-btn{
+    margin-top: 40px;
+    text-align: center;
+}
+.reset-btn a{
+    font-family: "Quicksand", system-ui ;
+    background-color: #0d0059;
+    color: #ffffff;
+    padding: 10px 145px ;
+    border-radius: 10px;
+}
+/* account success intro */
+.success-intro p{
+    font-family: "Quicksand", system-ui ;
+    color: #000000 ;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* media querry for the image1
+ */
+@media screen and (max-width: 768px) {
+  .signImg img {
+    width: 250px;
+    height: 400px;
+  }
+  .card-container {
+    justify-content: center;
+    margin-top: 13rem;
+  }
+}

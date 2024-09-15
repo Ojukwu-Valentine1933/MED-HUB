@@ -1,0 +1,14 @@
+const dotEnv = require("dotenv");
+dotEnv.config();
+
+module.exports = {
+  PORT: process.env.PORT,
+  MONGO_DB_URI: process.env.MONGO_DB_URI,
+  USER_EMAIL: process.env.USER_EMAIL,
+  JWT_SECRET: process.env.JWT_SECRET,
+  ACCESS_TOKEN_SECRET: process.env.ACCESS_TOKEN_SECRET,
+  GOOGLE_OAUTH_CLIENT_ID: process.env.GOOGLE_OAUTH_CLIENT_ID,
+  GOOGLE_OAUTH_CLIENT_SECRET: process.env.GOOGLE_OAUTH_CLIENT_SECRET,
+  GOOGLE_OAUTH_ACCESS_TOKEN: process.env.GOOGLE_OAUTH_ACCESS_TOKEN,
+  GOOGLE_OAUTH_REFRESH_TOKEN: process.env.GOOGLE_OAUTH_REFRESH_TOKEN,
+};
