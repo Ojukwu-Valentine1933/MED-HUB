@@ -6,11 +6,13 @@ const ChatMedhubAi = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [sidebarOpen, setSidebarOpen] = useState(false);
- 
+  const user = {
+    name: "Chris Brandford",
+  };
 
   // Initialize chat with a welcome message
   useEffect(() => {
-    const welcomeMessage = `AI_DOC: Welcome to AI_DOC! How can I assist you today? What are your symptoms?`;
+    const welcomeMessage = `AI_DOC: Welcome to AI_DOC! ${user.name} How can I assist you today? What are your symptoms?`;
     setMessages([welcomeMessage]);
   }, [user.name]);
 
