@@ -5,7 +5,7 @@ const app = express()
 const patientRoute = require("./routes/patientRoutes/patientRoute")
 
 const corsOption = {
-    origin: "http://localhost:3000",
+    origin: "https://med-hub-tau.vercel.app/",
     credentials: true,
 }
 

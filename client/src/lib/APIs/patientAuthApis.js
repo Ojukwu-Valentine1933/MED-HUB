@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { patientApi } from "./patientApi";
 import { clearCurrentpatient } from "../redux/patientSlice";
 
-let baseUrl = "http://localhost:3001";
+let baseUrl = "https://med-hub.onrender.com";
 
 export const patientAuthApi = createApi({
   reducerPath: "patientAuthApi",
