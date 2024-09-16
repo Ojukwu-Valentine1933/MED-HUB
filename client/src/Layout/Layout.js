@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useState } from "react";
 import AppRoutes from "./AppRoutes";
 import Loading from "../Component/Loading";
 import Header from "../Component/GlobalComponent/Header";
+import ScreenBlocker from "../Component/ScreenBlocker/ScreenBlockerComponent";
 
 const Layout = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -18,6 +19,7 @@ const Layout = () => {
         <Loading />
       ) : ( */}
       <main>
+       <ScreenBlocker/>
         <Header />
         <AppRoutes />
       </main>
