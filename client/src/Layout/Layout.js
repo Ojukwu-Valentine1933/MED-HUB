@@ -19,9 +19,11 @@ const Layout = () => {
         <Loading />
       ) : ( */}
       <main>
-       <ScreenBlocker/>
-        <Header />
-        <AppRoutes />
+       <ScreenBlocker>
+       <Header />
+       <AppRoutes />
+       </ScreenBlocker>
+       
       </main>
       {/* )} */}
     </Fragment>
