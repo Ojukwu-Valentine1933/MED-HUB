@@ -25,7 +25,7 @@ const ChatMedhubAi = () => {
 
       // Delay AI response for 4 seconds
       setTimeout(() => {
-        const aiResponse = "Okay Chris, I will schedule you for an appointment at Navy Town Hospital. You will be attended to by an Obstetrician by 2:00pm. Thank you for your patience, we will get back to you through your email. Have a good day.";
+        const aiResponse = "Sorry dear, My AI functionality hasnt be integrated, try again later as it it been currently worked on";
         setMessages((prevMessages) => [...prevMessages, `AI_DOC: ${aiResponse}`]);
       }, 4000); // 4000 milliseconds = 4 seconds
     }
