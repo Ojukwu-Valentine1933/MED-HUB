@@ -1,8 +1,8 @@
 const http = require("http");
 const app = require("./app");
 const server = http.createServer(app);
-// const PORT = 3001;
-const {PORT} = require("./config/dotEnv")
+const PORT = 3001;
+// const {PORT} = require("./config/dotEnv")
 const mongooseConnection = require("./config/mongoose");
 
 const startServer = async () => {
