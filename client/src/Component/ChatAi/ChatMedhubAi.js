@@ -25,7 +25,7 @@ const ChatMedhubAi = () => {
 
       // Delay AI response for 4 seconds
       setTimeout(() => {
-        const aiResponse = "Sorry dear, My AI functionality hasnt be integrated, try again later as it it been currently worked on";
+        const aiResponse = "Sorry dear, My AI functionality hasn't been integrated, try again later as it it been currently worked on";
         setMessages((prevMessages) => [...prevMessages, `AI_DOC: ${aiResponse}`]);
       }, 4000); // 4000 milliseconds = 4 seconds
     }
