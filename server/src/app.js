@@ -4,10 +4,18 @@ const cookieParser = require("cookie-parser")
 const app = express()
 const patientRoute = require("./routes/patientRoutes/patientRoute")
 
-const corsOption = {
-    origin: "https://med-hub-tau.vercel.app/",
-    credentials: true,
-}
+const allowedOrigins = ['https://med-hub-tau.vercel.app', 'http://localhost:3000']; // Add other origins if needed
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true, // This allows cookies and other credentials to be sent
+}));
 
 app.use(cors(corsOption));
 app.use(express.json());
