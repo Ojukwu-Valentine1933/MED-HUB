@@ -18,7 +18,7 @@ const Layout = () => {
       {/* {isLoading ? (
         <Loading />
       ) : ( */}
-      <main>
+      <main style={{ marginTop: "8rem" }}>
        <ScreenBlocker>
        <Header />
        <AppRoutes />

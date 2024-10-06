@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 import { Routes, Route } from "react-router-dom"; // import { Routes, Route, Navigate } from 'react-router-dom'
 import HomePage from "../Pages/Homepage";
 import Error404Page from "../Pages/Erorr404Page";
@@ -9,6 +9,7 @@ import AboutPage from "../Pages/AboutPage";
 import RecoverPage from "../Pages/RecoverPage";
 import ResetPage from "../Pages/ResetPage.js";
 import AccountSuccessPage from "../Pages/AccountSuccessPage.js";
+import DashPage from "../Pages/DashPage";
 import ProtectedRoutes from "../Layout/protectedRoutes";
 const ChatPage = React.lazy(() => import("../Pages/Chat"));
 const AppRoutes = () => {
@@ -25,9 +26,10 @@ const AppRoutes = () => {
       <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/signup" element={<SignupPage />} />
-      <Route path ="/recover" element={<RecoverPage/>}/>
+      <Route path="/recover" element={<RecoverPage />} />
       <Route path="/recover-success" element={<ResetPage />} />
-      <Route path="/account-success" element={<AccountSuccessPage/>}/>
+      <Route path="/account-success" element={<AccountSuccessPage />} />
+      <Route path="/dashboard" element={<DashPage />} />
       <Route
         path="/chat"
         element={

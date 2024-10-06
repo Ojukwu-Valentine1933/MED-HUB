@@ -1,13 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { FaHandHoldingMedical } from "react-icons/fa";
 import Medhub from "../../Assets/medhub 1.png"
 import "../../Styles/header.css";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-md fixed-top bg-white " data-bs-theme="">
+    <nav className="navbar navbar-expand-md fixed-top bg-white mb-5 " data-bs-theme="">
       <div className="container-fluid">
         <div className="navbar-logo">
           <NavLink className="navbar-brand logo fw-bold fs-1" to="/">

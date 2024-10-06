@@ -6,10 +6,10 @@ const ScreenBlocker = ({ children }) => {
   // Function to check screen size
   const checkScreenSize = () => {
     const screenWidth = window.innerWidth;
-    if (screenWidth <= 768) {
+    if (screenWidth <= 200) {
       setIsMobileOrTablet(true); // Block for screens 768px or less
     } else {
-      setIsMobileOrTablet(false); // Allow for screens wider than 768px
+      setIsMobileOrTablet(false); // Allow for screens wider than 200px
     }
   };
 
